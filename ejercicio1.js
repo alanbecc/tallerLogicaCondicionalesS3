@@ -181,4 +181,15 @@ if (verificarBisiesto % 400 == 0){
 }
 document.write("<br>");
 
+// Autenticacion de usuario Ejerccio Nº 13
+
+let usuario = prompt(" Ingrese su Nombre de Usuario");
+let contrasena = prompt("Ingrese Su Contraseña");
+
+if (usuario === "admin" && contrasena === "1234"){
+    document.write("Acceso Autorizado");
+} else {
+    document.write("Acceso Denegado");
+}
+document.write("<br>");
 
