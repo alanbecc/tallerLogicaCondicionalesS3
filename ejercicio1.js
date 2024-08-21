@@ -193,3 +193,19 @@ if (usuario === "admin" && contrasena === "1234"){
 }
 document.write("<br>");
 
+// Determinar Horario del Dia Ejercicio Nº 14
+
+let hora = prompt("Ingrese Una Hora del 0 al 23");
+
+if (hora >= 6 &&  hora < 12) {
+  document.write("Buenos Dias");
+} else if (hora >= 12 &&  hora < 18) {
+    document.write("Buenas Tardes");
+} else if (hora >= 18 &&  hora < 24){
+    document.write("Buenas Noches");
+} else if (hora >= 0 &&  hora <= 6){
+    document.write("Buenas Noches");
+} else {
+    document.write("Hora Ingresada No Valida");
+}
+document.write("<br>");
