@@ -124,5 +124,21 @@ if ( ladoUno === ladoDos && ladoDos === ladoTres){
 }
 document.write("<br>");
 
+//Adivinar Un Numero Ejercicio Nº 10
+
+let random = Math.random();
+random = random * 10 + 1;
+random = Math.trunc(random);
+
+let numeroAleatorio = prompt("Ingrese Un Numero Del 1 Al 10");
+if (numeroAleatorio == random){
+document.write("Has Acertado");
+}else {
+  document.write('El numero es:  ' + random, '  ' ,'Intenta de Nuevo');
+}
+document.write("<br>");
+
+
+
 
 
