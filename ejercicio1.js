@@ -74,5 +74,18 @@ if (edad < 12) {
 }
 document.write("<br>");
 
+// Calificacion De Notas Ejercicio Nº 7
+
+let nota = prompt("Ingrese Una Nota de 0 a 100");
+
+if (nota >= 90) {
+  document.write("Su Nota es Excelente");
+} else if (nota >= 70) {
+    document.write("Su Nota es Buena");
+} else if ( nota >= 50){
+    document.write("Su Nota Regular");
+} else {
+    document.write("Nota Insuficiente");
+}
 
 
