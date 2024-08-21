@@ -166,5 +166,19 @@ else {
 }
 document.write("<br>");
 
+//Verificar Año Bisiesto Ejercicio Nº 12
+
+let verificarBisiesto = prompt("Ingresa un año para verifiar si es o  no Bisiesto")
+
+if (verificarBisiesto % 400 == 0){
+    document.write("Año Bisiesto");
+} else if (verificarBisiesto % 100 == 0){
+    document.write("Año No Bisiesto");
+} else if (verificarBisiesto % 4 == 0){
+    document.write("Año Bisiesto");
+} else {
+    document.write("Año No Bisiesto");
+}
+document.write("<br>");
 
 
