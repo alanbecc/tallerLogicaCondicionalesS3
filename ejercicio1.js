@@ -209,3 +209,19 @@ if (hora >= 6 &&  hora < 12) {
     document.write("Hora Ingresada No Valida");
 }
 document.write("<br>");
+
+// Clasificacion De Masa Muscular Ejercicio Nº 15
+
+let peso = parseFloat(prompt("Ingrese Su Peso"));
+let altura = parseFloat(prompt("Ingrese Su Altura"));
+
+let imc = peso / (altura **2);
+
+if (imc < 18,5){
+    document.write("Bajo Peso");
+} else if ( imc >= 18,5 && imc <= 24,9){
+    document.write("Peso Normal");
+} else if (imc >= 25 && imc < 29,9){
+    document.write("Sobre Peso");
+}
+
