@@ -45,5 +45,19 @@ if (valorCompra > 100) {
 }
 document.write("<br>");
 
+// Compara Dos Nuemros Ejercicio Nº 5
+
+let primerNumero = prompt("ingrese Primer Numero")
+let segundoNumero = prompt("ingrese Segundo Numero")
+
+if (primerNumero === segundoNumero){
+document.write("Numeros Iguales");
+} else if (primerNumero > segundoNumero){
+    document.write("Numero 1  es mayor que el 2"); 
+} else {
+    document.write("Numero 2 s Mayor que 1");
+}
+document.write("<br>");
+
 
 
