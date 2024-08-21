@@ -20,6 +20,16 @@ if (numeroUsuario >= 0) {
 }
 document.write("<br>");
 
+//Par e Impar Ejercicio Nº 3
+
+let numeroParImpar = prompt("Ingrese Un Numero Para Saber si es Par o Impar");
+
+if (numeroParImpar % 2 == 0) {
+    document.write("Numero es Par");
+} else {
+    document.write("Numero Impar");
+}
+document.write("<br>");
 
 
 
