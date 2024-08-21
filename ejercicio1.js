@@ -87,5 +87,26 @@ if (nota >= 90) {
 } else {
     document.write("Nota Insuficiente");
 }
+document.write("<br>");
+
+// Eleccion Menu Ejercicio Nº 8
+
+let opcionMenu = prompt("Selecciona Una Opcion del menu");
+
+switch (opcionMenu) {
+    case "1":
+        document.write("Seleccionaste Pizza");
+        break;
+    case "2":
+        document.write("Seleccionaste Hamburguesa");
+        break;
+    case "3":
+        document.write("Seleccionaste Tacos");
+        break;
+    default:
+        document.write("Opcion No Valida");
+        break;
+}
+document.write("<br>");
 
 
