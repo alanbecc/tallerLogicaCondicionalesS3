@@ -59,5 +59,20 @@ document.write("Numeros Iguales");
 }
 document.write("<br>");
 
+// Calificcion Por Edad Ejercicio Nº 6
+
+let edad = prompt("Ingrese Una edad");
+
+if (edad < 12) {
+  document.write("Eres Un Niño");
+} else if (edad >= 12 && edad <= 17) {
+    document.write("Eres Un Adolescente");
+} else if ( edad >= 18 && edad <= 64){
+    document.write("Eres Un Adulto");
+} else {
+    document.write("Eres Un Adulto Mayor");
+}
+document.write("<br>");
+
 
 
