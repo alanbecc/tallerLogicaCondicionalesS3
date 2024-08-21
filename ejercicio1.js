@@ -9,6 +9,16 @@ if (edad >= 18) {
 }
 document.write("<br>");
 
+//Positivo Negativo Ejercicio Nº 2
+
+let numeroUsuario = prompt("Ingrese Un Numero Para Saber si es Negativo o Positivo");
+
+if (numeroUsuario >= 0) {
+  document.write("Numero Positivo");
+} else if (numeroUsuario <= 0) {
+  document.write("Numero Negativo");
+}
+document.write("<br>");
 
 
 
