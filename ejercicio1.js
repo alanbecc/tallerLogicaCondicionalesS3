@@ -138,7 +138,33 @@ document.write("Has Acertado");
 }
 document.write("<br>");
 
+//Calcula Precio Final Ejercicio Nº 11
 
+let precioBase = prompt("valor de su compra:");
+
+if (precioBase > 500) {
+  let descuento = 0.15;
+  let volorDescuento = precioBase * descuento;
+  let precioFinal = precioBase - volorDescuento;
+
+  document.write("su compra  es de:", precioFinal);
+} else if (precioBase > 300) {
+  let descuento = 0.1;
+  let volorDescuento = precioBase * descuento;
+  let precioFinal = precioBase - volorDescuento;
+
+  document.write("su compra  es de:", precioFinal);
+}else if (precioBase >300 ){
+  let descuento = 0.05;
+  let volorDescuento = precioBase * descuento;
+  let precioFinal = precioBase - volorDescuento;
+
+  document.write("su compra  es de:", precioFinal);
+}
+else {
+  document.write("su compra no tiene descuento");
+}
+document.write("<br>");
 
 
 
