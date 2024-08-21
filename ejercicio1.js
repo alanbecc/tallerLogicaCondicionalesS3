@@ -1,10 +1,10 @@
 //Comparar Edad Ejercicio Nº 1
 
-let edad = prompt("Ingrese La edad ");
+let edad1 = prompt("Ingrese La edad ");
 
-if (edad >= 18) {
+if (edad1 >= 18) {
   document.write("Eres Mayor de Edad");
-} else if (edad < 18) {
+} else if (edad1 < 18) {
   document.write("Eres Menor de Edad");
 }
 document.write("<br>");
@@ -31,6 +31,19 @@ if (numeroParImpar % 2 == 0) {
 }
 document.write("<br>");
 
+//Calculo De Descuento Ejercicio Nº 4
+
+let valorCompra = prompt("Ingrese Total de La compra");
+let descuento = 0.1;
+let valorDescuento = valorCompra * descuento;
+let precioFinal = valorCompra - valorDescuento;
+
+if (valorCompra > 100) {
+  document.write("Compra Final: ", precioFinal);
+} else {
+    document.write("Compra Final No Tiene Descuento ");
+}
+document.write("<br>");
 
 
 
