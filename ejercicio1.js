@@ -109,4 +109,20 @@ switch (opcionMenu) {
 }
 document.write("<br>");
 
+// Tipo de Triangulo Ejercicio Nº 9
+ 
+let ladoUno = prompt("Ingrese el Lado 1");
+let ladoDos = prompt("Ingrese el Lado 2");
+let ladoTres = prompt("Ingrese el Lado 3");
+
+if ( ladoUno === ladoDos && ladoDos === ladoTres){
+    document.write("Todos las Lados Son Iguales es un Triangulo equilatero");
+} else if ( ladoUno === ladoDos || ladoDos === ladoTres || ladoUno === ladoTres ){
+    document.write("Solo Dos Lados Son Iguales es un  Trianguulo Isosceles");
+} else {
+    document.write("Todos las Lados Son Diferentes es un Triangulo Escaleno");
+}
+document.write("<br>");
+
+
 
